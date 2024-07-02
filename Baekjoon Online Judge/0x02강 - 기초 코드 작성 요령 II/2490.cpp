@@ -2,7 +2,7 @@
 using namespace std;
 
 int result, input;
-string res = "DCBAE";
+string res = "DCBAE"; //등 갯수 : 윷걸개도모
 
 int main(void){
   ios::sync_with_stdio(0);
