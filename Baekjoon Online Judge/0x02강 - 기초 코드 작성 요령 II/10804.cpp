@@ -27,3 +27,11 @@ int main()
 }
 
 // 왜 바킹독님은 int cards[21]; 등을 전역변수로 둘까..?
+
+/*
+// 카드를 역순으로 놓는 함수
+void reverse(int a, int b){
+    for(int i = 0; i < (b - a + 1) / 2; i++)
+    swap(num[a+i], num[b-i]);
+}
+*/
