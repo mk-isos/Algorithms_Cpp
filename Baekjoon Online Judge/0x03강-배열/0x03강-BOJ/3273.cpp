@@ -1,3 +1,7 @@
+// 배열 기반 접근 방식을 생각해서 풀려고 노력해야하는데 
+// C++ 다양한게 궁금해서 찾아보면서 풀었음.
+// 3273_n.cpp 에서 다룸.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -19,7 +23,7 @@ int main() {
 
     for (int i = 0; i < n; ++i) {
         int complement = x - a[i];
-        if (num_map[complement]) {
+        if (num_map[complement]) {  //num_map[complement] 0이 아니라면
             count++;
         }
         num_map[a[i]]++;
