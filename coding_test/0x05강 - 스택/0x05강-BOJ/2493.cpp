@@ -12,7 +12,7 @@ int main() {
         cin >> heights[i];
     }
 
-    vector<int> result(N, 0);  // 결과를 저장할 벡터, 초기값은 0
+    vector<int> result(N, 0);  
     stack<pair<int, int>> s;   // (탑의 높이, 인덱스) 쌍을 저장하는 스택
 
     for (int i = 0; i < N; ++i) {
