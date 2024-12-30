@@ -12,7 +12,7 @@
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "/opt/homebrew/bin/gdb",  // 또는 lldb 경로
+            "miDebuggerPath": "/opt/homebrew/bin/gdb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -22,6 +22,19 @@
             ],
             "preLaunchTask": "g++ build active file",
             "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "C/C++: g++ 활성 파일 빌드 및 디버그",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++ 활성 파일 빌드"
         }
     ]
 }
