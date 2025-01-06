@@ -2,19 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "C/C++: clang++ 활성 파일 빌드 및 실행",
             "type": "shell",
-            "label": "C/C++: Build and Run",
             "command": "/bin/bash",
             "args": [
                 "-c",
-                "/usr/local/bin/g++ -fdiagnostics-color=always -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\""
+                "/usr/bin/clang++ -std=gnu++14 -fcolor-diagnostics -fansi-escape-codes -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\""
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "problemMatcher": ["$gcc"],
-            "detail": "Task to build and run the active file."
+            "detail": "빌드 후 자동 실행"
         }
     ]
 }
