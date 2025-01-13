@@ -26,14 +26,17 @@ int func1(int N) {
 int func2(int arr[], int N){
     for(int i=0; i < N; i++){
         for(int j=i+1; j < N; j++){
-            if(arr[i]+arr[j]==100) return i;
+            if(arr[i]+arr[j]==100) return 1;
         }
     }
   return 0;
 }
 
 int func3(int N){
-  return -1;
+    for(int i = 1; i * i <= N; i++){
+    if(i*i == N) return 1;
+    }
+    return 0;
 }
 
 int func4(int N){
