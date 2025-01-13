@@ -22,8 +22,14 @@ int func1(int N) {
     return sum_of_multiples(N, 3) + sum_of_multiples(N, 5) - sum_of_multiples(N, 15);
 }
 
+///////////////////////
 int func2(int arr[], int N){
-  return -1;
+    for(int i=0; i < N; i++){
+        for(int j=i+1; j < N; j++){
+            if(arr[i]+arr[j]==100) return i;
+        }
+    }
+  return 0;
 }
 
 int func3(int N){
