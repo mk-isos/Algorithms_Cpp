@@ -40,7 +40,9 @@ int func3(int N){
 }
 
 int func4(int N){
-  return -1;
+    int i =1;
+    while(2*i <= N) i*=2;
+    return i;
 }
 
 void test1(){
