@@ -2,12 +2,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "C/C++: clang++ 활성 파일 빌드 및 실행",
+            "label": "C/C++: g++ 활성 파일 빌드 및 실행",
             "type": "shell",
-            "command": "/bin/bash",
+            "command": "/usr/local/bin/g++",
             "args": [
-                "-c",
-                "/usr/bin/clang++ -std=gnu++14 -fcolor-diagnostics -fansi-escape-codes -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\""
+                "-std=gnu++14",
+                "-g",
+                "\"${file}\"",
+                "-o",
+                "\"${fileDirname}/${fileBasenameNoExtension}\"",
+                "&&",
+                "\"${fileDirname}/${fileBasenameNoExtension}\""
             ],
             "group": {
                 "kind": "build",
