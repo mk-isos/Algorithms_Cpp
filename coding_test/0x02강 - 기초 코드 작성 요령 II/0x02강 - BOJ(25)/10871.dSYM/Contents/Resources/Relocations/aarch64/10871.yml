@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x02강 - 기초 코드 작성 요령 II/0x02강 - BOJ(25)/10871"
+relocations:
+  - { offsetInCU: 0x7824, offset: 0x7824, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x196F0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x79FB, offset: 0x79FB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D0C, symSize: 0xD4 }
+...
