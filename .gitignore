@@ -1,0 +1,21 @@
+# C++ 빌드 파일 및 실행 파일 제외
+*.out
+*.o
+*.obj
+*.exe
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# 디버깅 관련 파일 제외 (.dsym)
+*.dsym/
+*.dSYM/
+
+# VS Code 관련 파일 제외
+.vscode/
+*.code-workspace
+
+# MacOS 특수 파일 제외
+.DS_Store
