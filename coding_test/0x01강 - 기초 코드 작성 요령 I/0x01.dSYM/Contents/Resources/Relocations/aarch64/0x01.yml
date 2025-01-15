@@ -1,8 +1,34 @@
 ---
-triple:          'arm64-apple-darwin'
-binary-path:     "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x01강 - 기초 코드 작성 요령 I/0x01"
+triple: "arm64-apple-darwin"
+binary-path: "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x01강 - 기초 코드 작성 요령 I/0x01"
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EB0, symSize: 0x4C }
-  - { offsetInCU: 0x2DDE, offset: 0x2DDE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EB0, symSize: 0x4C }
-  - { offsetInCU: 0x2E14, offset: 0x2E14, size: 0x8, addend: 0x0, symName: __Z5funclPii, symObjAddr: 0x4C, symBinAddr: 0x100003EFC, symSize: 0x8C }
-...
+  - {
+      offsetInCU: 0x26,
+      offset: 0x26,
+      size: 0x8,
+      addend: 0x0,
+      symName: _main,
+      symObjAddr: 0x0,
+      symBinAddr: 0x100003EB0,
+      symSize: 0x4C,
+    }
+  - {
+      offsetInCU: 0x2DDE,
+      offset: 0x2DDE,
+      size: 0x8,
+      addend: 0x0,
+      symName: _main,
+      symObjAddr: 0x0,
+      symBinAddr: 0x100003EB0,
+      symSize: 0x4C,
+    }
+  - {
+      offsetInCU: 0x2E14,
+      offset: 0x2E14,
+      size: 0x8,
+      addend: 0x0,
+      symName: __Z5funclPii,
+      symObjAddr: 0x4C,
+      symBinAddr: 0x100003EFC,
+      symSize: 0x8C,
+    }

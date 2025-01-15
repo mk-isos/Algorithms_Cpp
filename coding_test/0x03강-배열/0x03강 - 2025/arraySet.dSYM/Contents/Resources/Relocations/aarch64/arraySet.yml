@@ -1,10 +1,54 @@
 ---
-triple:          'arm64-apple-darwin'
-binary-path:     "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x03강-배열/0x03강 - 2025/arraySet"
+triple: "arm64-apple-darwin"
+binary-path: "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x03강-배열/0x03강 - 2025/arraySet"
 relocations:
-  - { offsetInCU: 0x78B1, offset: 0x78B1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x1A060, symBinAddr: 0x100008000, symSize: 0x0 }
-  - { offsetInCU: 0x7A85, offset: 0x7A85, size: 0x8, addend: 0x0, symName: __ZSt9__fill_a1IPiiEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT0_E7__valueEvE6__typeET_S8_RKS4_, symObjAddr: 0x230, symBinAddr: 0x100003CA4, symSize: 0x58 }
-  - { offsetInCU: 0x7AEF, offset: 0x7AEF, size: 0x8, addend: 0x0, symName: __ZSt8__fill_aIPiiEvT_S1_RKT0_, symObjAddr: 0x200, symBinAddr: 0x100003C74, symSize: 0x30 }
-  - { offsetInCU: 0x7B49, offset: 0x7B49, size: 0x8, addend: 0x0, symName: __ZSt4fillIPiiEvT_S1_RKT0_, symObjAddr: 0x1D0, symBinAddr: 0x100003C44, symSize: 0x30 }
-  - { offsetInCU: 0x7BAC, offset: 0x7BAC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A74, symSize: 0x1D0 }
-...
+  - {
+      offsetInCU: 0x78B1,
+      offset: 0x78B1,
+      size: 0x8,
+      addend: 0x0,
+      symName: __ZStL8__ioinit,
+      symObjAddr: 0x1A060,
+      symBinAddr: 0x100008000,
+      symSize: 0x0,
+    }
+  - {
+      offsetInCU: 0x7A85,
+      offset: 0x7A85,
+      size: 0x8,
+      addend: 0x0,
+      symName: __ZSt9__fill_a1IPiiEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT0_E7__valueEvE6__typeET_S8_RKS4_,
+      symObjAddr: 0x230,
+      symBinAddr: 0x100003CA4,
+      symSize: 0x58,
+    }
+  - {
+      offsetInCU: 0x7AEF,
+      offset: 0x7AEF,
+      size: 0x8,
+      addend: 0x0,
+      symName: __ZSt8__fill_aIPiiEvT_S1_RKT0_,
+      symObjAddr: 0x200,
+      symBinAddr: 0x100003C74,
+      symSize: 0x30,
+    }
+  - {
+      offsetInCU: 0x7B49,
+      offset: 0x7B49,
+      size: 0x8,
+      addend: 0x0,
+      symName: __ZSt4fillIPiiEvT_S1_RKT0_,
+      symObjAddr: 0x1D0,
+      symBinAddr: 0x100003C44,
+      symSize: 0x30,
+    }
+  - {
+      offsetInCU: 0x7BAC,
+      offset: 0x7BAC,
+      size: 0x8,
+      addend: 0x0,
+      symName: _main,
+      symObjAddr: 0x0,
+      symBinAddr: 0x100003A74,
+      symSize: 0x1D0,
+    }
