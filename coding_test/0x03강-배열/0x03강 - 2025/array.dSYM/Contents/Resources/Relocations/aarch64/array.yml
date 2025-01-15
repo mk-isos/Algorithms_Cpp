@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x03강-배열/0x03강 - 2025/array"
+relocations:
+  - { offsetInCU: 0x780C, offset: 0x780C, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x19D58, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x79E9, offset: 0x79E9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x358, symBinAddr: 0x100003CA4, symSize: 0x1C }
+  - { offsetInCU: 0x7A18, offset: 0x7A18, size: 0x8, addend: 0x0, symName: __Z10erase_testv, symObjAddr: 0x280, symBinAddr: 0x100003BCC, symSize: 0xD8 }
+  - { offsetInCU: 0x7A63, offset: 0x7A63, size: 0x8, addend: 0x0, symName: __Z11insert_testv, symObjAddr: 0x1B4, symBinAddr: 0x100003B00, symSize: 0xCC }
+  - { offsetInCU: 0x7A9C, offset: 0x7A9C, size: 0x8, addend: 0x0, symName: __Z8printArrPiRi, symObjAddr: 0x130, symBinAddr: 0x100003A7C, symSize: 0x84 }
+  - { offsetInCU: 0x7AF4, offset: 0x7AF4, size: 0x8, addend: 0x0, symName: __Z5eraseiPiRi, symObjAddr: 0xA4, symBinAddr: 0x1000039F0, symSize: 0x8C }
+  - { offsetInCU: 0x7B63, offset: 0x7B63, size: 0x8, addend: 0x0, symName: __Z6insertiiPiRi, symObjAddr: 0x0, symBinAddr: 0x10000394C, symSize: 0xA4 }
+...
