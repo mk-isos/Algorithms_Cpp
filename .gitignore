@@ -19,3 +19,8 @@
 
 # MacOS 특수 파일 제외
 .DS_Store
+
+._* # macOS 숨김 파일
+*.swp # Vim 임시 파일
+*.swo
+
