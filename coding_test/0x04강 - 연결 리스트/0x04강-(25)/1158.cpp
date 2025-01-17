@@ -15,7 +15,7 @@ int main()
         Q.push(i);
     cout << '<';
 
-    While(!Q.empty())
+    while (!Q.empty())
     {
         for (int i = 0; i < k - 1; i++)
         {
