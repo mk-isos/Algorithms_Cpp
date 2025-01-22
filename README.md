@@ -34,4 +34,19 @@ C++이 낯선 저는 평소에 Python으로 준비를 하고 있었으나, Pytho
 - [Groom](https://groom.io/)
 - [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 
-##
+## ✔️ 온라인 저지 사이트
+
+**[해외]**
+
+- [Codeforces](https://codeforces.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [LeetCode](https://leetcode.com/)
+- [CodeChef](https://www.codechef.com/)
+- [HackerRank](https://www.hackerrank.com/)
+
+**[국내]**
+
+- [Baekjoon Online Judge](https://www.acmicpc.net/)
+- [CodeUp](https://codeup.kr/)
+- [Programmers](https://programmers.co.kr/)
+- [SW Expert Academy](https://swexpertacademy.com/main/main.do)
