@@ -1,0 +1,34 @@
+# C++ 빌드 파일 및 실행 파일 제외
+*.out
+*.o
+*.obj
+*.exe
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# 디버깅 관련 파일 제외 (.dsym)
+*.dsym/
+*.dSYM/
+
+# VS Code 관련 파일 제외
+.vscode/
+*.code-workspace
+
+# MacOS 특수 파일 제외
+.DS_Store
+
+._* # macOS 숨김 파일
+*.swp # Vim 임시 파일
+*.swo
+
+# # 디렉터리 제외하지 않음
+# !*/
+
+# # 모든 파일 제외
+# *
+
+# C++ 소스 파일만 포함
+!*.cpp
