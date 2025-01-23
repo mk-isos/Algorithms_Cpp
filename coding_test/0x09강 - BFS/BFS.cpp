@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 #define X first
 #define Y second // pair에서 first, second를 줄여서 쓰기 위해서 사용
+
 int board[502][502] =
     {{1, 1, 1, 0, 1, 0, 0, 0, 0, 0},
      {1, 0, 0, 0, 1, 0, 0, 0, 0, 0},
