@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 #define FIO ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+#define X first
+#define Y second
 using namespace std;
 
 const int MAX = 500000;
@@ -15,8 +17,8 @@ int bfs()
 
     while (!q.empty())
     {
-        int x = q.front().first;
-        int t = q.front().second;
+        int x = q.front().X;
+        int t = q.front().Y;
         q.pop();
 
         // 동생의 현재 위치 계산
