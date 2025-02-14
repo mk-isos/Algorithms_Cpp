@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/moonki/Desktop/Algorithms_Cpp/coding_test/0x07강 - 덱/push_test"
+relocations:
+  - { offsetInCU: 0x783A, offset: 0x783A, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x19B68, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x7A48, offset: 0x7A48, size: 0x8, addend: 0x0, symName: __ZNSt15__new_allocatorIcED2Ev, symObjAddr: 0xD0, symBinAddr: 0x100003D34, symSize: 0x14 }
+  - { offsetInCU: 0x7A9B, offset: 0x7A9B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C64, symSize: 0xD0 }
+...
