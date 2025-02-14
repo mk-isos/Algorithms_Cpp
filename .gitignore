@@ -1,34 +1,39 @@
-# 💻 C++ 실행 파일 및 빌드 결과물 제외
-*.o
-*.out
-*.a
-*.so
-*.exe
-*.dll
-*.dylib
-*.d
-*.obj
-*.elf
-*.map
-*.bin
-
-
-# 🏗 Make 빌드 산출물
-*.dSYM/
-*.gcda
-*.gcno
-*.gcov
-
-# 📂 VS Code 작업 관련 파일
+# Base files
+**/*.out
+**/*.dSYM/
+test/
 .vscode/
-*.code-workspace
-
-# 🍏 Mac에서 자동 생성되는 시스템 파일
 .DS_Store
 
-# 📄 임시 파일 및 로그 파일
-*.tmp
-*.swp
-*.swo
-*.bak
-*.log
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
