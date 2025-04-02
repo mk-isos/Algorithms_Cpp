@@ -2,42 +2,35 @@
 #define FIO ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 using namespace std;
 
-#define X first
-#define Y second
-
 int A[105][105];
 int n = 3, m = 3;
 int r, c, k;
 
-void transpose()
-{
-    int mx = max(n, m);
-    for (int i = 1; i <= mx; i++)
-        for (int j = i + 1; j <= mx; j++)
-            swap(A[j][i], A[i][j]);
-    swap(n, m);
-}
-
-void freq_sort(int arr[], int size, int &maxLen)
+int freq_sort(int arr[], int size)
 {
     vector<pair<int, int>> v;
     int freq[101] = {};
-    for (int j = 1; j <= size; j++)
-        freq[arr[j]]++;
+    for (int i = 1; i <= size; i++)
+    {
+        if (arr[i] == 0)
+            continue;
+        freq[arr[i]]++;
+    }
     for (int i = 1; i <= 100; i++)
         if (freq[i])
             v.push_back({freq[i], i});
     sort(v.begin(), v.end());
     int j = 0;
-    for (auto p : v)
+    for (auto [cnt, num] : v)
     {
         if (j >= 100)
             break;
-        arr[++j] = p.Y;
-        arr[++j] = p.X;
+        arr[++j] = num;
+        arr[++j] = cnt;
     }
-    maxLen = max(maxLen, j);
-    fill(arr + j + 1, arr + 101, 0);
+    for (int i = j + 1; i <= 100; i++)
+        arr[i] = 0;
+    return j;
 }
 
 int main()
@@ -48,28 +41,34 @@ int main()
         for (int j = 1; j <= 3; j++)
             cin >> A[i][j];
 
-    int ans = 0;
-    while (A[r][c] != k && ans <= 100)
+    int time = 0;
+    while (A[r][c] != k && time <= 100)
     {
-        bool transposed = false;
-        int maxLen = 0;
-        if (n < m)
+        if (n >= m)
         {
-            transpose();
-            transposed = true;
-        }
-        for (int i = 1; i <= n; i++)
-            freq_sort(A[i], m, maxLen);
-        if (transposed)
-        {
-            transpose();
-            m = maxLen;
+            int new_m = 0;
+            for (int i = 1; i <= n; i++)
+                new_m = max(new_m, freq_sort(A[i], m));
+            m = new_m;
         }
         else
         {
-            n = maxLen;
+            int new_n = 0;
+            for (int i = 1; i <= m; i++)
+            {
+                int col[105];
+                for (int j = 1; j <= n; j++)
+                    col[j] = A[j][i];
+                int len = freq_sort(col, n);
+                for (int j = 1; j <= len; j++)
+                    A[j][i] = col[j];
+                for (int j = len + 1; j <= 100; j++)
+                    A[j][i] = 0;
+                new_n = max(new_n, len);
+            }
+            n = new_n;
         }
-        ans++;
+        time++;
     }
-    cout << (ans > 100 ? -1 : ans);
+    cout << (time > 100 ? -1 : time);
 }
