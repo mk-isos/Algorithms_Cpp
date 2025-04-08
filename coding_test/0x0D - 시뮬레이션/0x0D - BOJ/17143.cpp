@@ -1,5 +1,5 @@
 // 해결x.. 시간초과
-
+// while (fisherman_pos <= c) 아 이거 여기 처럼 = 차이였음 ..
 // Co-authored by : BaaaaaaaaaaarkingDog
 
 #include <bits/stdc++.h>
