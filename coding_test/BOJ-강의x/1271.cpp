@@ -1,5 +1,12 @@
 // 엄청난 부자2 - BigInteger 나눗셈 구현
 
+// 파이썬이면 3줄 풀이
+/*
+n, m = map(int, input().split())
+print(n // m)
+print(n % m)
+ */
+
 #include <bits/stdc++.h>
 #define FIO ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 using namespace std;
