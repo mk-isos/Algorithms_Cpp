@@ -6,6 +6,7 @@ int main()
 {
     FIO;
 
+    // 의사난수 생성기
     mt19937 rng((uint64_t)chrono::steady_clock::now().time_since_epoch().count());
     vector<int> cand(10000);
     iota(cand.begin(), cand.end(), 1);
