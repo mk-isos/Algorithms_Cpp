@@ -1,6 +1,6 @@
 # Algorithms_Cpp
 
-이 저장소는 바킹독(BaaaaaaaarkingDog)님의 [실전알고리즘](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2) 강좌를 공부하고 정리한 것입니다.
+이 저장소는 바킹독(BaaaaaaaarkingDog)님의 [실전알고리즘](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2) 강좌를 공부하고 정리중입니다.
 
 + 개인 공부
 
