@@ -2,8 +2,6 @@
 #define FIO ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 using namespace std;
 
-using namespace std;
-
 vector<int> firstPattern = {1, 2, 3, 4, 5};
 vector<int> secondPattern = {2, 1, 2, 3, 2, 4, 2, 5};
 vector<int> thirdPattern = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
