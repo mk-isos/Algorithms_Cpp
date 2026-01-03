@@ -14,15 +14,6 @@
 
 - [Algorithms_Python](https://github.com/mk-isos/Algorithms_Python)
 
-<details>
-<summary>여담 (클릭하여 펼치기/접기)</summary>
-
-///
-
-</details>
-
-
-
 ## 추천 코딩 테스트 플랫폼
 
 - [Baekjoon Online Judge](https://www.acmicpc.net/)
